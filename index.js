@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Netflix india - Watch Tv shows online, Watch Movies online </title>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar">
+    <div class="left">
+     <img src=" images/netflix-logo.png" alt="">
+    </div>
+    <div class="right">
+        <select name="language" class="language">
+            <option value="english"> English </option>
+           <option value="telugu"> Telugu </option>
+           <option value="hindi"> Hindi </option>
+        </select>
+       <button> <a href="#">Sign in</a> </button> 
+    </div>
+    </nav>
+
+    <div class="title">
+        <div class="content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h2> Watch anywhere. Cancel anytime. </h2>
+            <form action="#">
+                <h3> Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="email">
+                    <input type="email" name="email" placeholder="email address">
+                    <button>Get started</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    
+</body>
+</html>
